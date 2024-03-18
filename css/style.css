@@ -17,3 +17,21 @@
     position: relative;
     top: 40%;
 }
+.title{
+    font-size: 60px;
+}
+.grigio{
+    color: gray;
+    font-size: 15px;
+}
+#tim1{
+   width: 700px;
+   height: 450px;
+}
+#tim2{
+  width: 600px;
+  height: 450px;
+}
+.info{
+    font-size: 15px;
+}
