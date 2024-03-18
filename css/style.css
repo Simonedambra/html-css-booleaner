@@ -3,12 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* TITOLO-LOGO */
 .title-img{
     background-image: url(../img/pattern.png);
     height: 180px;
     background-size: fixed;
     background-color: rgb(56, 116, 227);
 }
+
 #logo{
     background-image: url(../img/logo.svg);
     height: 50%;
@@ -16,22 +18,71 @@
     background-repeat: no-repeat;
     position: relative;
     top: 40%;
+
 }
 .title{
     font-size: 60px;
+    padding: 5px;
 }
+/* FINE PRIMA PARTE */
+/* INIZIO SECONDA PARTE [INFO LINK IMMAGINI] */
 .grigio{
     color: gray;
     font-size: 15px;
+    padding: 5px;
+
 }
 #tim1{
    width: 700px;
    height: 450px;
+   position: relative;
+   left: 5px;
 }
 #tim2{
   width: 600px;
   height: 450px;
+  
 }
 .info{
     font-size: 15px;
+    padding: 5px;
 }
+/* FINE SECONDA PARTE */
+/* INIZIO TERZA PARTE [TESTO INFORMATIVO LISTA ORDINATA] */
+#text1{
+    font-size: 30px;
+    
+}
+.evidenziato{
+    background-color: gold;
+}
+.list{
+    padding: 25px;
+    font-size: 30px;
+}
+.text{
+    padding: 5px;
+}
+/* FINE TERZA PARTE */
+/* INIZIO QUARTA PARTE [TABELLA] */
+#table{
+    width: 98%;
+   
+}
+.casella-azzurra{
+    background-color: rgb(106, 200, 255);
+}
+.table-head{
+    background-color: rgb(70, 144, 255);
+    color: white;
+}
+table{
+    padding: 10px;
+    font-size: 20px;
+    margin: auto;
+    
+}
+.caselle{
+    width: 20%;
+}
+/* FINE QUARTA PARTE */
