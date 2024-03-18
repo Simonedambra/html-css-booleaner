@@ -49,7 +49,7 @@
 }
 /* FINE SECONDA PARTE */
 /* INIZIO TERZA PARTE [TESTO INFORMATIVO LISTA ORDINATA] */
-#text1{
+.text1{
     font-size: 30px;
     
 }
@@ -65,9 +65,12 @@
 }
 /* FINE TERZA PARTE */
 /* INIZIO QUARTA PARTE [TABELLA] */
-#table{
+table{
+    padding: 10px;
+    font-size: 20px;
+    margin: auto;
     width: 98%;
-   
+    border: 0px;
 }
 .casella-azzurra{
     background-color: rgb(106, 200, 255);
@@ -76,13 +79,11 @@
     background-color: rgb(70, 144, 255);
     color: white;
 }
-table{
-    padding: 10px;
-    font-size: 20px;
-    margin: auto;
-    
-}
 .caselle{
     width: 20%;
 }
+td{
+    border: none;
+}
 /* FINE QUARTA PARTE */
+/* INIZIO QUINTA PARTE TESTO E IMMAGINI FINALI */
